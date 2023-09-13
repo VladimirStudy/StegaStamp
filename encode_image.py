@@ -11,7 +11,7 @@ from tensorflow.python.saved_model import signature_constants
 BCH_POLYNOMIAL = 137
 BCH_BITS = 5
 
-def main():
+def main(): # комментарий номер 3
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('model', type=str)
